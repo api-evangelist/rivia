@@ -1,8 +1,30 @@
 aid: rivia
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rivia.png
 name: Rivia
-description: Rivia is a company surfaced as a portfolio company of earlybird, speedinvest and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Rivia is a clinical trial intelligence platform based in Zurich, Switzerland
+  that unifies fragmented clinical trial data from any vendor into a single,
+  structured foundation for biotech and pharmaceutical companies. Its products
+  include Rivia Core (data harmonization), Rivia Detect (AI agents that
+  continuously identify and resolve data quality issues), and Rivia Spark
+  (visual analytics with a conversational AI assistant for exploring trial
+  data through natural language). The platform supports medical and clinical
+  science, safety monitoring, clinical operations, and executive oversight use
+  cases, promising go-live in under 20 days. Rivia raised a $15M Series A and
+  is backed by investors including Earlybird and Speedinvest. The company is a
+  sales-led enterprise platform with no public developer portal or API surface
+  as of this profile; onboarding is via demo request.
 url: https://raw.githubusercontent.com/api-evangelist/rivia/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,12 +35,45 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Clinical Trials
+- Healthcare
+- Life Sciences
+- Data Intelligence
+- Pharmaceutical
+- Artificial Intelligence
+- Clinical Data Management
 apis: []
+common:
+- type: TrustCenter
+  url: security/rivia-trust-center.yml
+- type: Website
+  url: https://www.rivia.com
+- type: About
+  url: https://www.rivia.com/about
+- type: Pricing
+  url: https://www.rivia.com/pricing
+- type: Blog
+  url: https://www.rivia.com/news
+- type: Careers
+  url: https://www.rivia.com/careers
+- type: PrivacyPolicy
+  url: https://www.rivia.com/privacy
+- type: TermsOfService
+  url: https://www.rivia.com/terms-of-use
+- type: Compliance
+  url: https://www.rivia.com/trust
+- type: DomainSecurity
+  url: security/rivia-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
