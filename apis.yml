@@ -67,6 +67,8 @@ tags_raw:
 - Clinical Data Management
 apis: []
 common:
+- type: Plans
+  url: plans/rivia-plans-pricing.yml
 - type: TrustCenter
   url: security/rivia-trust-center.yml
 - type: Website
